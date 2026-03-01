@@ -1,0 +1,10 @@
+{
+  "name": "hjnbb",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "lint": "node ./scripts/lint.mjs",
+    "test": "node --test ./functions/src/signature/helpers.test.mjs",
+    "build": "node ./scripts/build.mjs"
+  }
+}
